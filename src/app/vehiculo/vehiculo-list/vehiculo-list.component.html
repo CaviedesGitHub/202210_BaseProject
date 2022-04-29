@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="col-6">
-    <table class="table">
-      <thead>
+    <table class="table table-sm" style="width:128%;">
+      <thead class="table-dark">
         <tr>
           <th class="h4">#</th>
           <th class="h4">Marca</th>
@@ -11,7 +11,7 @@
       </thead>
       <tbody>
         <tr *ngFor="let v of vehiculos, index as i">
-          <td>
+          <td class="resaltado">
             <dd>{{i+1}}</dd>
           </td>
           <td>

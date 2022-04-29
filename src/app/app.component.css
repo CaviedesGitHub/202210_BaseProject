@@ -1,3 +1,28 @@
 * [lang^=en] {
   color: green;
 }
+
+.cont1{
+  margin:1rem;
+  width: 90%;
+}
+
+.tituloPrincipal{
+  font-family:"Calibri", serif;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.imgPrincipal{
+  padding: 0px;
+   margin-top: 0px;
+   display: block;
+   width: 100%;
+   height:auto;
+}
+
+.pie{
+  text-align: center;
+  margin-top: 3rem;
+}
+
