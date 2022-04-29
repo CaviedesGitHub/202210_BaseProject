@@ -14,7 +14,7 @@ export class VehiculoService {
    constructor(private http: HttpClient) {
    }
 
-   getMuseums(): Observable<Vehiculo[]>{
+   getVehiculos(): Observable<Vehiculo[]>{
       return this.http.get<Vehiculo[]>(this.apiUrl);
    }
 
